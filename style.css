@@ -5,14 +5,28 @@ body, html {
     line-height: 1.8;
 }
 
-/* Full height image header */
-.bgimg-1 {
-    background-position: center;
-    background-size: cover;
-    /*background-image: url("");*/
-    min-height: 100%;
-}
-
 .w3-bar .w3-button {
     padding: 16px;
+}
+
+.headerpicture {
+    background-position: center;
+    background-size: cover;
+}
+
+.mybutton {
+    margin-top: 5px;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.mybutton:hover {
+    font-family: monospace;
+    font-size: 22px;
+    background-color: #d70000;
+    color: #fff;
+    display: block;
 }
