@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
 <link rel="stylesheet" href="style.css">
 
 <body>
@@ -16,15 +17,15 @@
     <div class="w3-bar w3-white w3-card" id="myNavbar">
         <a href="" class="w3-bar-item w3-button w3-wide">LOGO will be here</a>
         <!-- Right-sided navbar links -->
-        <div class="w3-right w3-hide-small">
-            <a href="index.html" class="w3-bar-item mybutton"><i class="fa fa-home"></i>HOME</a>
-            <a href="team.html" class="w3-bar-item mybutton"><i class="fa fa-user"></i>TEAM</a>
-            <a href="pricing.html" class="w3-bar-item mybutton"><i class="fa fa-usd"></i>PRICING</a>
-            <a href="contact.html" class="w3-bar-item mybutton"><i class="fa fa-envelope"></i>CONTACT</a>
+        <div class="right w3-hide-small">
+            <a href="index.html" class="w3-bar-item mynav"><i class="fa fa-home"></i>HOME</a>
+            <a href="team.html" class="w3-bar-item mynav"><i class="fa fa-user"></i>TEAM</a>
+            <a href="pricing.html" class="w3-bar-item mynav"><i class="fa fa-usd"></i>PRICING</a>
+            <a href="contact.html" class="w3-bar-item mynav"><i class="fa fa-envelope"></i>CONTACT</a>
+            <a href="" class="w3-bar-item mynav"><i class="fa fa-key"></i>LOGIN</a>
         </div>
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <a href="javascript:void(0)" class="w3-bar-item w3-button right w3-hide-large w3-hide-medium" onclick="w3_open()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
@@ -42,8 +43,9 @@
 
 <!-- Header with full-height image -->
 <header class="w3-display-container w3-grayscale-min" id="home">
-    <div>
-        <img src="images/gym.jpg" class="headerpicture">
+    <div class="w3-container">
+        <img src="images/gym.jpg" alt="" class="headerpicture">
+        <button class="centerbtn">Begin your journey!</button>
     </div>
     <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
         <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -56,35 +58,35 @@
 </header>
 
 <!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
-    <h3 class="w3-center">ABOUT THE COMPANY</h3>
-    <p class="w3-center w3-large">Key features of our company</p>
-    <div class="w3-row-padding w3-center" style="margin-top:64px">
+<div class="w3-container" style="padding:50px 16px" id="about">
+    <h2 class="centertext">ABOUT OUR GYM</h2>
+    <h5 class="centertext">Advantages of our gym</h5>
+    <div class="w3-row-padding centertext" style="margin-top:60px">
         <div class="w3-quarter">
-            <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-            <p class="w3-large">Responsive</p>
+            <i class="fa fa-gears w3-margin-bottom w3-jumbo centertext"></i>
+            <p class="aboutsubtitle">Equipment</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
         </div>
         <div class="w3-quarter">
-            <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-            <p class="w3-large">Passion</p>
+            <i class="fa fa-life-ring w3-margin-bottom w3-jumbo"></i>
+            <p class="aboutsubtitle">Coaches</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
         </div>
         <div class="w3-quarter">
-            <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-            <p class="w3-large">Design</p>
+            <i class="fa fa-envira w3-margin-bottom w3-jumbo"></i>
+            <p class="aboutsubtitle">Outdoor</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
         </div>
         <div class="w3-quarter">
-            <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-            <p class="w3-large">Support</p>
+            <i class="fa fa-heartbeat w3-margin-bottom w3-jumbo"></i>
+            <p class="aboutsubtitle">Recovery</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
         </div>
     </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
+<footer class="centertext w3-black w3-padding-64">
     <a href="index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     <div class="w3-xlarge w3-section">
         <i class="fa fa-facebook-official w3-hover-opacity"></i>

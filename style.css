@@ -9,12 +9,38 @@ body, html {
     padding: 16px;
 }
 
-.headerpicture {
-    background-position: center;
-    background-size: cover;
+
+/*my css*/
+.right {
+    float: right;
 }
 
-.mybutton {
+.headerpicture {
+    width: 100%;
+    height: auto;
+}
+
+.centerbtn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #d70000;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.centerbtn:hover {
+    border: 2px solid #ffffff;
+    font-size: 18px;
+}
+
+.mynav {
     margin-top: 5px;
     font-family: monospace;
     text-decoration: none;
@@ -23,10 +49,43 @@ body, html {
     margin-right: 5px;
 }
 
-.mybutton:hover {
-    font-family: monospace;
-    font-size: 22px;
+.mynav:hover {
     background-color: #d70000;
     color: #fff;
-    display: block;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.aboutsubtitle {
+    font-size: 19px;
+    font-family: "work sans";
+}
+
+.pic {
+    height: auto;
+    width: 30%;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.signupbtn {
+    background-color: #d70000;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signupbtn:hover {
+    border: 2px solid #000;
+    font-size: 18px;
+}
+
+.procolor {
+    background-color: #d70000;
+    color: #ffffff;
 }
