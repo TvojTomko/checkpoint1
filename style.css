@@ -1,16 +1,19 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-body, html {
-    height: 100%;
-    line-height: 1.8;
-}
-
 .w3-bar .w3-button {
     padding: 16px;
 }
 
 
 /*my css*/
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: monospace;
+    text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
 .right {
     float: right;
 }
@@ -88,4 +91,9 @@ body, html {
 .procolor {
     background-color: #d70000;
     color: #ffffff;
+}
+
+.credits {
+    font-size: 10px;
+    color: #d70000;
 }
