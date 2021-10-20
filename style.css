@@ -14,6 +14,10 @@ body, html {
     line-height: 1.8;
 }
 
+.left {
+    float: left;
+}
+
 .right {
     float: right;
 }
